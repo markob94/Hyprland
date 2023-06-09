@@ -4,13 +4,13 @@
 sudo pacman -Syu --noconfirm
 
 # Install packages from official repositories
-sudo pacman -S --noconfirm hyprland swaybg swaylock-effects wofi code btrfs-assistant protonvpn btrfsmaintenance snapper grub-btrfs mako grim slurp wl-clipboard polkit-kde-agent pipewire-alsa pavucontrol playerctl qt5ct btop jq gvfs gvfs-mtp ffmpegthumbs python-requests pamixer brightnessctl xdg-user-dirs viewnior network-manager-applet cava thunar thunar-volman tumbler thunar-archive-plugin
+yay -S --noconfirm hyprland swaybg swaylock-effects wofi code btrfs-assistant protonvpn btrfsmaintenance snapper grub-btrfs mako grim slurp wl-clipboard polkit-kde-agent pipewire-alsa pavucontrol playerctl qt5ct btop jq gvfs gvfs-mtp ffmpegthumbs python-requests pamixer brightnessctl xdg-user-dirs viewnior network-manager-applet cava thunar thunar-volman tumbler thunar-archive-plugin
 
 # Install packages from AUR (using yay)
 yay -S --noconfirm snap-pac-grub snap-pac wlogout nwg-look-bin swww waybar-hyprland-git catppuccin-gtk-theme-mocha catppuccin-cursors-mocha sddm-git sddm-catppuccin-git xdg-desktop-portal-hyprland
 
 # Install additional fonts
-sudo pacman -S --noconfirm otf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono otf-font-awesome-4 ttf-droid ttf-fantasque-sans-mono adobe-source-code-pro-fonts
+yay -S --noconfirm otf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono otf-font-awesome-4 ttf-droid ttf-fantasque-sans-mono adobe-source-code-pro-fonts
 
 # Install Thunar and xfce4
 mv ~/.config/Thunar ~/.config/Thunar-back-up
