@@ -1,24 +1,26 @@
 *{
-	font-family: "JetBrainsMono Nerd Font";
-	font-weight: bold;
-	min-height: 0;
-	font-size: 16px;
-	padding: 0;
-	margin-top: 1px;
-	margin-bottom: 1px;
+font-family: "JetBrainsMono Nerd Font";
+font-weight: bold;
+min-height: 0;
+/* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
+font-size: 100%;
+font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+padding: 0px;
+margin-top: 1px;
+margin-bottom: 1px;
 }
 
 window#waybar {
-	 /* Transparent waybar. Make sure to comment out background-color: and border: */
-  background-color: rgba(0,0,0,0);
-  /* background-color: #1e1e2e; */
-  /* border: 2px solid #313244; */
-  transition-property: background-color;
-  transition-duration: .5s;
+	/* Transparent waybar. Make sure to comment out background-color: and border: */
+  	background-color: rgba(0,0,0,0);
+  	/* background-color: #1e1e2e; */
+  	/* border: 2px solid #313244; */
+  	transition-property: background-color;
+  	transition-duration: .5s;
 }
 
 window#waybar.hidden {
-  opacity: 0.5;
+  	opacity: 0.5;
 }
 
 tooltip {
@@ -95,12 +97,12 @@ tooltip label{
 
 #battery.critical:not(.charging) {
 	background-color: #f38ba8;
-    	color: #f38ba8;
-    	animation-name: blink;
-    	animation-duration: 0.5s;
-    	animation-timing-function: linear;
-    	animation-iteration-count: infinite;
-    	animation-direction: alternate;
+    color: #f38ba8;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 #clock {

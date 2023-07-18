@@ -9,8 +9,9 @@
 "spacing": 3,
 "fixed-center": true,
 "ipc": true,
-"margin-left": 10,
-"margin-right": 10,
+"margin-top": 6,
+"margin-left": 8,
+"margin-right": 8,
 
 "modules-left": [
 	"wlr/workspaces", 
@@ -24,19 +25,19 @@
 "modules-center": [
 	"custom/menu", 
 	"clock",
-	//"custom/cycle_wall",
-	"custom/light_dark",
-	"custom/lock", 	
+	//"custom/cycle_wall",	
+	"custom/lock",	
 	], 
 
 "modules-right": [
-	"hyprland/window", 
+	//"hyprland/window", 
 	"tray", 
 	"battery", 
 	"backlight",
 	"pulseaudio",
 	//"wireplumber", 
-	"pulseaudio#microphone", 
+	"pulseaudio#microphone",
+	"custom/light_dark", 
 	"custom/power",
 	],
 }

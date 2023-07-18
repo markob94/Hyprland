@@ -8,8 +8,9 @@
 "spacing": 3,
 "fixed-center": true,
 "ipc": true,
-"margin-left": 10,
+"margin-left": 6,
 "margin-right": 10,
+"margin-top": 10,
 
 "modules-left": [
 	"wlr/workspaces", 
@@ -36,15 +37,20 @@
 	"custom/lock", 
 	],
 },
+
 {
 "include": "~/.config/hypr/waybar/modules",
-"height": 20,
-"name": "bottom",
 "layer": "top",
-"margin": "0px 0px 0px 0px",
+"mode": "dock",
+"exclusive": true,
+"passthrough": false,
 "position": "bottom",
-"margin-left": 10,
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-left": 6,
 "margin-right": 10,
+"margin-bottom": 6,
 
 "modules-left": [
 	"custom/menu",  
@@ -52,7 +58,7 @@
 	 ],
 
 "modules-center": [
-	"cava"
+	"cava",
 	],
 
 "modules-right": [

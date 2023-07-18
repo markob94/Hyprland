@@ -11,6 +11,7 @@
 "ipc": true,
 "margin-left": 10,
 "margin-right": 10,
+"margin-top": 6,
 
 "modules-left": [
 	"custom/menu", 
@@ -28,8 +29,8 @@
 "modules-right": [
 	"tray",
 	"network",
+	"bluetooth",
 	"cpu",
-	"bluetooth", 
 	"temperature", 
 	"memory", 
 	"battery",  

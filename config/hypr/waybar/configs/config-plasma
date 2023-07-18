@@ -11,11 +11,12 @@
 "ipc": true,
 "margin-left": 10,
 "margin-right": 10,
+"margin-bottom": 6,
 
 "modules-left": [
 	"custom/menu", 
 	"wlr/workspaces",
-	"custom/updater", 
+	//"custom/updater", 
 	"wlr/taskbar",
 	 ],
   
@@ -36,7 +37,7 @@
 	"pulseaudio",
 	//"wireplumber", 
 	"pulseaudio#microphone",
-	//"custom/updater", 
+	"custom/updater", 
 	"custom/cycle_wall",
 	"custom/power",
 	],
